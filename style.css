@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(51, 35, 0);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+    height: 100%;
+}
+.nav .contato{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;    
+}
+.menu{
+    width: 100%;
+    height: 10vh;
+    background-color: grey;
+}
+.menu .menuItens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.menu a{
+    text-decoration: none;
+    font-size: 24px;
+    color: antiquewhite;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+}
+.container .L1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(img/gettyimages-504333530.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.L1 .cafe {
+    text-align: center;
+    color: white;
+    width: 25%;
+    height: 70%;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+}
+.container2 .P1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(img/tomar-cafe-sem-acucar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.P1 .cafe {
+    text-align: center;
+    color: white;
+    width: 25%;
+    height: 70%;
+}
+.cafe img{
+    height: 80px;
+}
+.cafe a{
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;
+}
